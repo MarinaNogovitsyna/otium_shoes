@@ -1,0 +1,63 @@
+.header {
+  position: relative;
+}
+
+.header img {
+  width: 100%;
+}
+
+.header h1 {
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 255px;
+  font-weight: 500;
+}
+
+.about h2, .about p {
+    text-align: center;
+    font-weight: 300;
+    color: #E36868;
+}
+
+.about h2 {
+    font-size: 90px;
+    padding: 80px 0 40px 0;
+}
+
+.about p {
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.choice h2 {
+    color: #E36868;
+    text-align: center;
+    font-size: 90px;
+    font-weight: 300;
+    padding-top: 250px;
+    padding-bottom: 100px;
+}
+
+.choice__images {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.choice__images img {
+    width: 24%;
+    cursor: pointer;
+}
+
+footer {
+    background-image: url("../img/footerMainBg.png");
+    height: 1050px;
+    padding-top: 563px;
+}
+
+.footer__contacts-and-year span {
+    color: #B274C8;
+}

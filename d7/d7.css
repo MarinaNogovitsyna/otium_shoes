@@ -1,0 +1,46 @@
+header img {
+  margin-top: 251px;
+  width: 64%;
+}
+
+.header__text h1 {
+  color: #52c4c5;
+}
+
+.header__text h2 {
+  color: #e36868;
+}
+
+.header__text h3 {
+  color: #52c4c5;
+}
+
+.container {
+  background-image: url("../img/d7bg2.png");
+  height: 4221px;
+}
+
+.first__description {
+  margin-top: -90px;
+}
+
+.first__description__text {
+  margin-top: 390px;
+}
+
+.second__description img {
+  margin-top: 200px;
+}
+
+.second__description span {
+  color: #52c4c5;
+  margin-top: 500px;
+}
+
+footer {
+  margin-top: 230px;
+}
+
+.footer__contacts-and-year span {
+  color: #23b2b4;
+}

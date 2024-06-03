@@ -1,0 +1,38 @@
+.container {
+    background-image: url("../img/c2bg.png");
+    height: 4260px;
+    width: 100%;
+}
+
+header {
+    color: #E36868;
+}
+
+header img {
+    margin-top: 184px;
+}
+
+.first__description {
+    margin-top: -120px;
+}
+
+.first__description img {
+    margin-right: 8%;
+}
+
+.first__description__text {
+    margin-top: 370px;
+}
+
+.second__description span {
+    color: #E36868;
+    margin-top: 600px;
+}
+
+footer {
+    margin-top: 200px;
+}
+
+.footer__contacts-and-year span {
+    color: white;
+}

@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Next ART;
+  src: url("../fonts/NEXT\ ART_Bold.otf") format("opentype");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: Next ART;
+  src: url("../fonts/NEXT\ ART_Regular.otf") format("opentype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Next ART;
+  src: url("../fonts/NEXT\ ART_Light.otf") format("opentype");
+  font-weight: 300;
+}
+
+body {
+  font-family: Next ART;
+}
+
+header {
+  position: relative;
+}
+
+.header__text {
+  position: absolute;
+  right: 8%;
+  top: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  float: right;
+  text-align: right;
+  min-width: max-content;
+}
+
+.header__text h1 {
+  font-weight: 900;
+  font-size: 90px;
+}
+
+.header__text h2 {
+  font-weight: 300;
+  font-size: 90px;
+}
+
+.header__text h3 {
+  font-weight: 300;
+  font-size: 60px;
+}
+
+.first__description {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first__description__text {
+  margin-left: 9%;
+}
+
+.first__description__text h2 {
+  font-size: 90px;
+  color: white;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.first__description__text span {
+  color: white;
+  font-size: 60px;
+  margin-top: 30px;
+  font-weight: 300;
+}
+
+.second__description {
+  display: flex;
+  position: relative;
+}
+
+.second__description span {
+  min-width: max-content;
+  position: absolute;
+  right: 8%;
+  font-size: 60px;
+  font-weight: 300;
+  text-align: right;
+  float: right;
+}
+
+.btn__back {
+  width: 30%;
+  padding: 30px 0;
+  border: 2px solid #E36868;
+  border-radius: 20px;
+  color: #E36868;
+  cursor: pointer;
+  background: none;
+  font-size: 36px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Next ART;
+  font-weight: 300;
+  margin-top: 150px;
+}
+
+.footer__contacts-and-year {
+  display: flex;
+  justify-content: space-between;
+  width: 67%;
+  margin: auto;
+}
+
+.footer__contacts-and-year h2 {
+  color: white;
+  font-size: 90px;
+  font-weight: 300;
+}
+
+.footer__contacts-and-year span {
+  font-size: 90px;
+  font-weight: 300;
+}
+
+.footer__text {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 50px;
+  color: white;
+  font-size: 36px;
+  font-weight: 300;
+  margin-left: 34%;
+}
+
+.footer__text div {
+  display: flex;
+  gap: 20px;
+}
