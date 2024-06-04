@@ -17,7 +17,6 @@ header img {
 
 .container {
   background-image: url("../img/d7bg2.png");
-  height: 4221px;
 }
 
 .first__description {
@@ -51,4 +50,10 @@ footer {
 
 .footer__contacts-and-year span {
   color: #23b2b4;
+}
+
+@media (max-width: 1700px) {
+  .second__description {
+    margin-top: 150px;
+  }
 }
