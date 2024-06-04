@@ -24,12 +24,20 @@ header img {
   margin-top: -90px;
 }
 
+.first__description img {
+  width: 31%;
+  margin-bottom: -330px;
+  object-fit: contain;
+  margin-right: 8%;
+}
+
 .first__description__text {
   margin-top: 390px;
 }
 
 .second__description img {
   margin-top: 200px;
+  width: 50%;
 }
 
 .second__description span {

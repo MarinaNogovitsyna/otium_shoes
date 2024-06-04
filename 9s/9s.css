@@ -6,6 +6,7 @@
 
 header img {
     margin-top: 187px;
+    width: 65%;
 }
 
 .header__text h1 {
@@ -30,6 +31,7 @@ header img {
 
 .second__description img {
     margin-top: 200px;
+    width: 50%;
 }
 
 .second__description span {
