@@ -9,6 +9,7 @@ header {
 
 header img {
     margin-top: 184px;
+    width: 65%;
 }
 
 .first__description {
@@ -27,6 +28,10 @@ header img {
 .second__description span {
     color: #E36868;
     margin-top: 600px;
+}
+
+.second__description img {
+    width: 55%;
 }
 
 footer {
